@@ -18,9 +18,21 @@
       margin:0;
       padding:0;
     }
+    img#responsive{
+      display:none;
+    }
+    @media screen and (max-width: 768px){
+      img{
+        display: none;
+      }
+      img#responsive{
+        display:block;
+      }
+    }
   </style>
 </head>
 <body>
+  <img src="responsive.png" alt="" id="responsive">
   <img src="header.jpg" alt="header">
   <img src="hero.jpg" alt="">
   <img src="acustica.jpg" alt="">
